@@ -30,7 +30,7 @@ document.getElementById('next_button').addEventListener('click', () =>{
 
 document.getElementById('prev_button').addEventListener('click', () =>{
     if(index < 0){
-        index = imgArray.length -1``;
+        index = imgArray.length -1;
     }
     img.src = imgArray[index]
     index--;
